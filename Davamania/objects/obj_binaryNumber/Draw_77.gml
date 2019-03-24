@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_alpha=1;
+draw_set_color(make_color_rgb(irandom(258),irandom(258),irandom(258)));

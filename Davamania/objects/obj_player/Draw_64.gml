@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-image_alpha=1;
+draw_set_font(fnt_binaryNumbers);
+draw_text(x,y-500,lives);

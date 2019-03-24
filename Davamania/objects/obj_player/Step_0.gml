@@ -19,39 +19,32 @@ if (spdV==-3){
 y+=spdV;
 x+=spdH;
 
+attackH=(keyboard_check(vk_right)-keyboard_check(vk_left));
+attackV=(keyboard_check(vk_down)-keyboard_check(vk_up));
 
-if (cooldown<=0 and (keyboard_check(vk_up) or keyboard_check(vk_down) 
-	or keyboard_check(vk_left) or keyboard_check(vk_right))){
+if (cooldown<=0 and (attackH != 0 or attackV!=0)){
 		
 	var instance= instance_create_layer(x,y,"layer_Projectiles",obj_weapon);
-	if (keyboard_check(vk_up)){
-		sprite_index=spr_davalosBack;
-		if (keyboard_check(vk_right)){
-			instance.direction=45;
-		}else if (keyboard_check(vk_left)){
-			instance.direction=135;
-		}else{
-			instance.direction=90;
+	if (attackH==1){
+		if (attackV==1 or attackV==-1){
+			instance.direction=45*-attackV;
 		}
-	}
-	if (keyboard_check(vk_down)){
-		if (keyboard_check(vk_right)){
-			instance.direction=-45;
-		}else if (keyboard_check(vk_left)){
-			instance.direction=-135;		
+	}else if (attackH==-1){
+		if (attackV==1 or attackV==-1){
+			instance.direction=135*-attackV;
 		}else{
-			instance.direction=-90;
+			instance.direction=180;
+		}
+	}else if (attackV==-1 or attackV==1){
+		if (attackH==1 or attackH==-1){
+			instance.direction=225*attackH;
+		}else{
+			instance.direction=90*-attackV;
 		}
 	}
 	
-	if (keyboard_check(vk_left) and !(keyboard_check(vk_up)) and !(keyboard_check(vk_down)) and !(keyboard_check(vk_right))){
-			instance.direction=180;
-	}
-	if (keyboard_check(vk_right) and !(keyboard_check(vk_up)) and !(keyboard_check(vk_down)) and !(keyboard_check(vk_left))){
-			instance.direction=0;
-	}
 	instance.direction*=random_range(0.9,0.99);
-	instance.speed=random_range(2,8);
+	instance.speed=random_range(3,8);
 	instance.image_angle+=speed*1.3;
-	cooldown=30;
+	cooldown=instance.speed*5.5;
 }

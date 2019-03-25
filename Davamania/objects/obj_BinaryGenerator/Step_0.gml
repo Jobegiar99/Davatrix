@@ -7,43 +7,40 @@ if (instance_exists(obj_player)){
 	}
 }
 
-if (attack1){	
-	if (attack1Activated=false){
-		alarm[1]=30;
+if (attack1 and attack2==false){
+
+	if (attack1Counter>0 and attack1Activated=false){
+		alarm[1]=30;	
 		attack1Activated=true;
-	}
-	if (attack1Counter<=0){
+	}else if (attack1Counter<=0 and attack1Activated=false){
+		alarm[0]=30;
 		attack1=false;
 		attack1Activated=false;
-		alarm[2]=300;
 	}
 	
 }
 
-if (attack2){
-	if (attack2Activated=false){
-		attack2Number=attack2Counter;
-		alarm[3]=60;
+/*if (attack2 and attack1==false){
+	if (attack2Activated==false){
+		alarm[3]=30;	
 		attack2Activated=true;
 	}
-	if (attack2Activated){
-		if (attack2Angle>=0){
-			alarm[4]=3;	
-		}else if (attack2Number>0){
-			attack2Angle=360;
+	if (attack2Angle>0 and attack2Activated){
+		alarm[4]=1;	
+	}else if (attack2Angle<=0 and attack2Activated){
+		if (attack2Number>0){
+			alarm[3]=10;
 			attack2Number--;
-			alarm[4]=10;
+		}else{
+			alarm[0]=300;
+			attack2=false;
+			attack2Activated=false;
 		}
 	}
-	if (attack2Counter<=0){
-		attack2=false;
-		attack1Counter=128;
-		attack2Activated=false;
-		alarm[0]=300;
-	}
 	
-	
-}
+}*/
+
+
 if (life<=0){
 	instance_destroy();
 }

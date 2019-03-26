@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0bdbb0b1-6415-4727-b2d9-aa5fa3c6e618",
+            "Value": {
+                "id": "e3355a2d-85e3-465f-a713-74a68e85f315",
+                "resourcePath": "sprites\\spr_DavalosRightStill\\spr_DavalosRightStill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f3d07a6-2796-437e-b59f-4184350b6398",
             "Value": {
                 "id": "ebdb3dba-09a0-47d4-80cd-2bf50643c943",
@@ -183,6 +191,14 @@
             }
         },
         {
+            "Key": "5549c45b-4be9-40e8-a8bd-15d1ce1d520d",
+            "Value": {
+                "id": "0ac78c8f-1eb3-4841-aacc-759ddbef2026",
+                "resourcePath": "sprites\\spr_DavalosFrontStill\\spr_DavalosFrontStill.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "61266837-a347-4f5e-96af-cd5550bd0714",
             "Value": {
                 "id": "4bc8fd10-071f-47c7-9b16-f10aa2b1e727",
@@ -212,6 +228,14 @@
                 "id": "781793b6-10bf-4edc-8493-543770e90c91",
                 "resourcePath": "views\\6ed445db-0ac7-4b0a-bda9-acfbc6e82b23.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6fbd5cd9-f8e9-427a-a4b2-43ff18984b4b",
+            "Value": {
+                "id": "69fde1e9-fb96-4929-885f-4918effd9831",
+                "resourcePath": "sprites\\spr_DavalosLeftStill\\spr_DavalosLeftStill.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -455,6 +479,14 @@
             }
         },
         {
+            "Key": "e89a3772-0ab4-4c22-ba83-6ff11b15382f",
+            "Value": {
+                "id": "62b25305-7c7f-4e17-b932-d946af65b12e",
+                "resourcePath": "views\\e89a3772-0ab4-4c22-ba83-6ff11b15382f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e9ace011-c193-4343-a79f-444e4f6cf6ab",
             "Value": {
                 "id": "3b92ed3b-b3a2-4642-9d09-c5be81310ed0",
@@ -492,6 +524,14 @@
                 "id": "61bda93b-b233-4228-bae1-4c3c16c1741d",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f6ac7907-d525-444f-92c2-f24f76772d16",
+            "Value": {
+                "id": "2ae05ba7-6d3f-44f8-aef8-69b54261e971",
+                "resourcePath": "sprites\\spr_DavalosBackStill\\spr_DavalosBackStill.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

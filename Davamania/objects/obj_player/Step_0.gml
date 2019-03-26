@@ -8,14 +8,18 @@ spdV=(keyboard_check(ord("S"))-keyboard_check(ord("W")))*3;
 if (spdH!=0){
 	sprite_index=spr_davalosSide;
 	image_xscale=sign(spdH);
+	arrayControl=(spdH==1)? 3: 2 ;
 }
-
 if (spdV==-3){
 	sprite_index=spr_davalosBack;	
+	arrayControl=0;
 }else if (spdV==3){
 	sprite_index=spr_davalosFront;
+	arrayControl=1;
 }
-
+if (spdV==0 and spdH==0){
+	sprite_index=(myIndex[arrayControl]);
+}
 y+=spdV;
 x+=spdH;
 

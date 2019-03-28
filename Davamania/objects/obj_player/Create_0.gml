@@ -13,3 +13,5 @@ myIndex[1]=spr_DavalosFrontStill;
 myIndex[2]=spr_DavalosRightStill;
 myIndex[3]=spr_DavalosLeftStill;
 arrayControl=1;
+walking_speed = 1.5;
+collision_speed = walking_speed + 2;

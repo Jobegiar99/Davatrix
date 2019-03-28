@@ -20,26 +20,6 @@ if (attack1 and attack2==false){
 	
 }
 
-/*if (attack2 and attack1==false){
-	if (attack2Activated==false){
-		alarm[3]=30;	
-		attack2Activated=true;
-	}
-	if (attack2Angle>0 and attack2Activated){
-		alarm[4]=1;	
-	}else if (attack2Angle<=0 and attack2Activated){
-		if (attack2Number>0){
-			alarm[3]=10;
-			attack2Number--;
-		}else{
-			alarm[0]=300;
-			attack2=false;
-			attack2Activated=false;
-		}
-	}
-	
-}*/
-
 
 if (life<=0){
 	instance_destroy();

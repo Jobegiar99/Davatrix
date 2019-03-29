@@ -9,7 +9,7 @@ alarm0Activated=false;
 attack1Counter=0; //Number of binary numbers to throw
 attack1Activated=false;
 
-
+alarm2activated=false;
 attack2=false;
 attack2Activated=false;
 attack2Counter=1; //Number of waves

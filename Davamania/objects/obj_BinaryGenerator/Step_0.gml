@@ -10,7 +10,7 @@ if (instance_exists(obj_player)){
 if (attack1 and attack2==false){
 
 	if (attack1Counter>0 and attack1Activated=false){
-		alarm[1]=30;	
+		alarm[1]=5;	//attack speed
 		attack1Activated=true;
 	}else if (attack1Counter<=0 and attack1Activated=false){
 		alarm[0]=30;

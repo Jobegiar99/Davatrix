@@ -10,8 +10,12 @@ if (attack2Number>0 and attack2Angle>0){
 		attack2Number--;
 		alarm[2]=1;
 	}
+	if (obj_BinaryGenerator.life<100){
+		instance_create_layer(x,y,"layer_Projectiles",obj_asciiAttackBad);
+		attack2Angle-=2;
+	}
 }else{
 	attack2Number=attack2Counter;
 	attack2Angle=360;
-	alarm[2]=irandom_range(300,600);	
+	alarm[2]=irandom_range(400,700);	
 }

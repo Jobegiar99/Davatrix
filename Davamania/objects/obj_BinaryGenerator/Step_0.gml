@@ -13,7 +13,7 @@ if (attack1 and attack2==false){
 		alarm[1]=5;	//attack speed
 		attack1Activated=true;
 	}else if (attack1Counter<=0 and attack1Activated=false){
-		alarm[0]=30;
+		alarm[0]=random_range(60,300);
 		attack1=false;
 		attack1Activated=false;
 	}

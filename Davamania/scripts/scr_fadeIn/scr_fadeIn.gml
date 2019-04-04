@@ -3,7 +3,7 @@
 
 image_alpha=argument0;
 
-if (instance_exists(obj_fade)){
+if (instance_exists(obj_Fade)){
 		image_alpha+=0.016;
 		return image_alpha;
 }

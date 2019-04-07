@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "1adac55d-f7bd-47f2-aff0-58fc1cba06f5",
+            "Value": {
+                "id": "380efbc0-893c-43ff-8bce-34499e449888",
+                "resourcePath": "objects\\obj_LambdaAttack\\obj_LambdaAttack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c272469-0eca-4e62-b356-817d5908d194",
             "Value": {
                 "id": "ff933926-00a1-4245-b622-9613091c8438",
@@ -163,6 +171,14 @@
             "Value": {
                 "id": "71bf04a4-b5fa-4c2a-9ee2-d35b80597cd0",
                 "resourcePath": "objects\\obj_Omega\\obj_Omega.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1cd4a922-ea74-4860-9b4d-c51f5ef13da6",
+            "Value": {
+                "id": "701d2abe-baa3-4076-a259-9a67094187c1",
+                "resourcePath": "objects\\obj_ChiAttack\\obj_ChiAttack.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -180,6 +196,14 @@
                 "id": "23a2c06d-5eca-4047-a387-94593cff9759",
                 "resourcePath": "views\\21cac103-f5e8-4c48-bd32-ab9a47491798.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "235176c8-ee00-4b57-a819-30c645617905",
+            "Value": {
+                "id": "803285b1-cab8-4b8b-abc9-223434058294",
+                "resourcePath": "objects\\obj_OmicronAttack\\obj_OmicronAttack.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -447,6 +471,14 @@
             }
         },
         {
+            "Key": "76163219-4710-4807-8ad9-6e477c6d7f66",
+            "Value": {
+                "id": "645afdc3-5c28-4813-b972-2417b254c699",
+                "resourcePath": "views\\76163219-4710-4807-8ad9-6e477c6d7f66.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "76d87da9-5b01-4f72-ab52-29c6141a5cf6",
             "Value": {
                 "id": "82c0a902-df35-4fca-af0f-8492cef400a7",
@@ -567,6 +599,14 @@
             }
         },
         {
+            "Key": "9c793292-b093-4851-8374-7069a68a3171",
+            "Value": {
+                "id": "3f26549b-97a1-4124-8fe0-992af09f2419",
+                "resourcePath": "rooms\\room_FINALBOSS\\room_FINALBOSS.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9d874ba6-68ae-4e07-b55a-26cf0a7af67d",
             "Value": {
                 "id": "e9a61307-caf8-43ca-af43-666ecccf678d",
@@ -595,6 +635,14 @@
             "Value": {
                 "id": "9695f467-ef6a-4e9e-9f3f-2bdf5216363a",
                 "resourcePath": "objects\\obj_binaryNumber\\obj_binaryNumber.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a4a0c14a-edb2-4ff8-a622-ff08778a137c",
+            "Value": {
+                "id": "184d576f-19f2-4689-8628-61ad23be66f3",
+                "resourcePath": "objects\\obj_ChiProjectile\\obj_ChiProjectile.yy",
                 "resourceType": "GMObject"
             }
         },

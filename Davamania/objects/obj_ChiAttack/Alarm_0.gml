@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-angle=0;
-direction=angle;
-speed=2;
-moving=true;
-alarm[0]=0;
-attackChosen=false;
+x=choose(100,200,300,400);
+y=choose(200,300);
+charging=3;
+alarm[1]=30;

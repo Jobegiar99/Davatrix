@@ -3,6 +3,6 @@
 if (moving){
 	angle+=2;
 	direction=angle;
-}else{
-
+}else if (attackChosen){
+	y-=1;
 }

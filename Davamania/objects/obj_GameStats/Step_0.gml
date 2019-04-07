@@ -21,7 +21,7 @@ if (inRoom1){
 }
 
 if (inRoom2){
-	if (obj_player.x>=30 and room2Closed==false){
+	if (obj_player.x>=33 and room2Closed==false){
 	
 		room2_wallCloseB.image_xscale+=0.02;
 		

@@ -2,45 +2,45 @@
 // You can write your code in this editor
 switch(control){
 	case 0:
-	instance_create_layer(x,y,"Instances",obj_Lambda);
+	instance_create_layer(x,y+50,"Instances",obj_Lambda);
 	control++;
 	alarm[0]=30;
 	break;
 	case 1:
-	instance_create_layer(x,y,"Instances",obj_Pi);
+	instance_create_layer(x,y+50,"Instances",obj_Pi);
 	control++;
 	alarm[0]=30;
 	break;
 	case 2:
-	instance_create_layer(x,y,"Instances",obj_Omega);
+	instance_create_layer(x,y+50,"Instances",obj_Omega);
 	control++;
 	alarm[0]=30;
 	break;
 	case 3:
-	instance_create_layer(x,y,"Instances",obj_Omicron);
+	instance_create_layer(x,y+50,"Instances",obj_Omicron);
 	control++;
 	alarm[0]=30;
 	break;
 	case 4:
-	instance_create_layer(x,y,"Instances",obj_Delta);
+	instance_create_layer(x,y+50,"Instances",obj_Delta);
 	control++;
 	alarm[0]=30;
 	break;
 	case 5:
-	instance_create_layer(x,y,"Instances",obj_Chi);
+	instance_create_layer(x,y+50,"Instances",obj_Chi);
 	control++;
 	alarm[0]=30;
 	break;
 	case 6: case 7: case 8:
-	obj_Lambda.speed+=1;
+	obj_Lambda.speed+=0.5;
 	control++;
 	alarm[0]=60;
 	break;
 	default:
 		with (obj_Lambda){
 			moving=false;
-			move_towards_point(obj_LambdaLord.x,obj_LambdaLord.y,2);
-				alarm[0]=60;
+			direction=point_direction(x,y,obj_LambdaLord.x,obj_LambdaLord.y);
+			speed=2;
+			
 	}
-
 }

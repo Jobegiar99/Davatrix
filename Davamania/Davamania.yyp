@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "6a0d5310-b06a-4726-9a55-0a6d08fed443",
+            "Value": {
+                "id": "7752adbf-1346-46dc-b8eb-1431c949af95",
+                "resourcePath": "objects\\obj_Omega\\obj_Omega.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e3b14ea-d7f0-4299-9d8b-0f40985e2418",
             "Value": {
                 "id": "48e9e492-10c6-434a-a9c0-baca982a8521",
@@ -364,6 +372,14 @@
                 "id": "27422393-e2b0-493b-a241-e6574c40971f",
                 "resourcePath": "views\\716eeedb-7a3c-416b-9790-55f7bf0eaadd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "677789a1-05a3-4616-8c7d-e1baf0466d6a",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
             }
         },
         {
@@ -532,6 +548,14 @@
                 "id": "eb3ec1f7-c55f-420e-a991-3768c76edc05",
                 "resourcePath": "views\\ac2e1a1c-d538-4b83-89a1-d176056e9075.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "afc8fa33-ffe4-4d76-aac7-020ee0718749",
+            "Value": {
+                "id": "84d28995-6ff9-47e8-9472-7f50e277def0",
+                "resourcePath": "objects\\obj_OmicronAttack\\obj_OmicronAttack.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -724,14 +748,6 @@
                 "id": "62b25305-7c7f-4e17-b932-d946af65b12e",
                 "resourcePath": "views\\e89a3772-0ab4-4c22-ba83-6ff11b15382f.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e9ace011-c193-4343-a79f-444e4f6cf6ab",
-            "Value": {
-                "id": "3b92ed3b-b3a2-4642-9d09-c5be81310ed0",
-                "resourcePath": "rooms\\room_MainMenu\\room_MainMenu.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

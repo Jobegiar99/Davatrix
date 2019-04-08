@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-attack = true;
+obj_LambdaLord.alarm[0]=600;

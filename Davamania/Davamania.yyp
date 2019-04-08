@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "1303ebba-daa1-47c6-a348-273ad104a950",
+            "Value": {
+                "id": "7af6c02f-060b-4c2d-9d6b-6364c9a3ab05",
+                "resourcePath": "objects\\obj_DeltaProjectile\\obj_DeltaProjectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13b18bf2-3452-4c9d-8434-8f701482baa2",
             "Value": {
                 "id": "47e49064-847b-4d53-9cbf-f999f395b004",
@@ -572,6 +580,14 @@
                 "id": "a5cb36f3-74f1-495a-81f1-1b2c359f49d6",
                 "resourcePath": "sprites\\spr_room_next\\spr_room_next.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8de01292-9a6a-4c70-8758-f0fc625d487c",
+            "Value": {
+                "id": "8ca4c774-c74e-4e6b-b65d-43a69363afd7",
+                "resourcePath": "objects\\obj_DeltaAttack\\obj_DeltaAttack.yy",
+                "resourceType": "GMObject"
             }
         },
         {

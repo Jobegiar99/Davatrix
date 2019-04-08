@@ -2,6 +2,7 @@
 // You can write your code in this editor
 inRoom1=false;
 inRoom2=false;
+inRoom3=false;
 room1Open=false;
 room2Closed=false;
-section1Room2NotDestroyed=true;
+room3Closed=false;

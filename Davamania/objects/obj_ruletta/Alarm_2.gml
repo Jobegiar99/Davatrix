@@ -5,22 +5,18 @@ switch (myNumber){
 		var created=instance_create_layer(x-40,y,"Instances",obj_LambdaAttack);
 		break;
 	case 1:
-		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);
-		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);
-		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);
-		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);
+		//var created=instance_create_layer(x-40,y,"Instances",obj_PiAttack);
+	
 		break;
 	case 2:
-		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);
-		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);
-		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);
-		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);
+		var created=instance_create_layer(x-40,y,"Instances",obj_OmegaAttack);
+	
 		break;
 	case 3:	
 		var created=instance_create_layer(x-40,y,"Instances",obj_OmicronAttack);
 		break;
 	case 4:
-		
+		//var created=instance_create_layer(x-40,y,"Instances",obj_DeltaAttack);
 	
 	case 5:
 		var created=instance_create_layer(x-40,y,"Instances",obj_ChiAttack);

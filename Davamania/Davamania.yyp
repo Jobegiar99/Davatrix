@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "0ea58176-b0f4-4ab0-965f-c6b808f8b85d",
+            "Value": {
+                "id": "e4a90dd4-b744-4863-bf26-c25672d6dcbc",
+                "resourcePath": "objects\\obj_OmegaAttack\\obj_OmegaAttack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0eaa8f39-9667-47b1-a3c5-50c1fca167e9",
             "Value": {
                 "id": "62efbf2c-b6f4-4dce-a921-a533bec6b327",

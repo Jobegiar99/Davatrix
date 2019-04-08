@@ -21,27 +21,21 @@ if (inRoom1){
 }
 
 if (inRoom2){
-	if (obj_player.x>=30 and room2Closed==false){
-		room2_wallCloseA.image_xscale+=0.02;
+	if (obj_player.x>=33 and room2Closed==false){
+	
 		room2_wallCloseB.image_xscale+=0.02;
-		room2_wallCloseA.image_yscale+=0.02;
+		
 		room2_wallCloseB.image_yscale+=0.02;
 		
-		with (room2_wallCloseA){
-			if (x<11){
-				x+=1;
-			}
-			image_angle+=30;
-		}
 		with (room2_wallCloseB){
-				if (x<11){
+				if (x<17){
 					x+=1;
 				}
 				image_angle+=30;
 		}
-		if (room2_wallCloseA.image_xscale>=1){
+		if (room2_wallCloseB.image_xscale>=1){
 			room2Closed=true;	
-			with (room2_wallCloseA){
+			with (room2_wallCloseB){
 				image_angle=0;
 			}
 			with (room2_wallCloseB){
@@ -50,80 +44,49 @@ if (inRoom2){
 		}
 	
 	
+	}
+	if (!(instance_exists(obj_RedLed)) and instance_exists(instance_room2Exit)){
+		instance_room2Exit.image_xscale-=0.1;
+		instance_room2Exit.image_yscale-=0.1;
+		instance_room2Exit.image_angle+=(100*image_xscale);
+		if (instance_room2Exit.image_yscale<=0){
+			instance_destroy(instance_room2Exit);	
 		}
+	}
+}
+
+if (inRoom3){
+	if (obj_player.x>=30 and room3Closed==false){
+	
+		instance_Room3Closed.image_xscale+=0.02;
 		
+		instance_Room3Closed.image_yscale+=0.02;
 		
-	//Checks if the player has defeated all the enemies of the first section
-	if (!(instance_exists(obj_RedLed)) and section1Room2NotDestroyed){
-		instance_Room2Section1BlockA.image_xscale-=0.1;
-		instance_Room2Section1BlockA.image_yscale-=0.1;
-		instance_Room2Section1BlockA.image_angle+=5;
-		instance_Room2Section1BlockB.image_xscale-=0.1;
-		instance_Room2Section1BlockB.image_yscale-=0.1;
-		instance_Room2Section1BlockB.image_angle+=5;
-		instance_Room2Section1BlockC.image_xscale-=0.1;
-		instance_Room2Section1BlockC.image_yscale-=0.1;
-		instance_Room2Section1BlockC.image_angle+=5;
-		instance_Room2Section1BlockD.image_xscale-=0.1;
-		instance_Room2Section1BlockD.image_yscale-=0.1;
-		instance_Room2Section1BlockD.image_angle+=5;
-		instance_Room2Section1BlockE.image_xscale-=0.1;
-		instance_Room2Section1BlockE.image_yscale-=0.1;
-		instance_Room2Section1BlockE.image_angle+=5;
-		instance_Room2Section1BlockF.image_xscale-=0.1;
-		instance_Room2Section1BlockF.image_yscale-=0.1;
-		instance_Room2Section1BlockF.image_angle+=5;
-		instance_Room2Section1BlockG.image_xscale-=0.1;
-		instance_Room2Section1BlockG.image_yscale-=0.1;
-		instance_Room2Section1BlockG.image_angle+=5;
-		instance_Room2Section1BlockH.image_xscale-=0.1;
-		instance_Room2Section1BlockH.image_yscale-=0.1;
-		instance_Room2Section1BlockH.image_angle+=5;
-		instance_Room2Section1BlockI.image_xscale-=0.1;
-		instance_Room2Section1BlockI.image_yscale-=0.1;
-		instance_Room2Section1BlockI.image_angle+=5;
-		instance_Room2Section1BlockJ.image_xscale-=0.1;
-		instance_Room2Section1BlockJ.image_yscale-=0.1;
-		instance_Room2Section1BlockJ.image_angle+=5;
-		instance_Room2Section1BlockK.image_xscale-=0.1;
-		instance_Room2Section1BlockK.image_yscale-=0.1;
-		instance_Room2Section1BlockK.image_angle+=5;
-		instance_Room2Section1BlockL.image_xscale-=0.1;
-		instance_Room2Section1BlockL.image_yscale-=0.1;
-		instance_Room2Section1BlockL.image_angle+=5;
-		instance_Room2Section1BlockM.image_xscale-=0.1;
-		instance_Room2Section1BlockM.image_yscale-=0.1;
-		instance_Room2Section1BlockM.image_angle+=5;
-		instance_Room2Section1BlockN.image_xscale-=0.1;
-		instance_Room2Section1BlockN.image_yscale-=0.1;
-		instance_Room2Section1BlockN.image_angle+=5;
-		instance_Room2Section1BlockO.image_xscale-=0.1;
-		instance_Room2Section1BlockO.image_yscale-=0.1;
-		instance_Room2Section1BlockO.image_angle+=5;
-		instance_Room2Section1BlockP.image_xscale-=0.1;
-		instance_Room2Section1BlockP.image_yscale-=0.1;
-		instance_Room2Section1BlockP.image_angle+=5;
-		if (instance_Room2Section1BlockA.image_xscale==0){
-			section1Room2NotDestroyed=false;
-			instance_destroy(instance_Room2Section1BlockA);
-			instance_destroy(instance_Room2Section1BlockB);
-			instance_destroy(instance_Room2Section1BlockC);
-			instance_destroy(instance_Room2Section1BlockD);
-			instance_destroy(instance_Room2Section1BlockE);
-			instance_destroy(instance_Room2Section1BlockF);
-			instance_destroy(instance_Room2Section1BlockG);
-			instance_destroy(instance_Room2Section1BlockH);
-			instance_destroy(instance_Room2Section1BlockI);
-			instance_destroy(instance_Room2Section1BlockJ);
-			instance_destroy(instance_Room2Section1BlockK);
-			instance_destroy(instance_Room2Section1BlockL);
-			instance_destroy(instance_Room2Section1BlockM);
-			instance_destroy(instance_Room2Section1BlockN);
-			instance_destroy(instance_Room2Section1BlockO);
-			instance_destroy(instance_Room2Section1BlockP);
-			
-			
+		with (room2_wallCloseB){
+				if (x<17){
+					x+=1;
+				}
+				image_angle+=30;
 		}
-		
+		if (instance_Room3Closed.image_xscale>=1){
+			instance_create_layer(245,191,"Instances",obj_BinaryGenerator);
+			room3Closed=true;	
+			with (instance_Room3Closed){
+				image_angle=0;
+			}
+			with (instance_Room3Closed){
+				image_angle=0;
+			}
+		}
+	
+	
+	}
+	if (!(instance_exists(obj_RedLed)) and instance_exists(instance_room2Exit)){
+		instance_room2Exit.image_xscale-=0.1;
+		instance_room2Exit.image_yscale-=0.1;
+		instance_room2Exit.image_angle+=(100*image_xscale);
+		if (instance_room2Exit.image_yscale<=0){
+			instance_destroy(instance_room2Exit);	
+		}
 	}
 }

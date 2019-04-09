@@ -6,5 +6,6 @@ alarm[2]=0;
 alarm[3]=0;
 alarm[4]=0;
 life=1;
+myAlarmCooldown=random_range(10,60);
+alarm[0]=myAlarmCooldown;
 numberOfAttacks=3;
-myAlarmCooldown=0;

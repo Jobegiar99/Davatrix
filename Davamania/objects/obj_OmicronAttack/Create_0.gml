@@ -8,4 +8,4 @@ image_xscale += 1.25;
 image_yscale += 1.25; 
 speed = 0;
 iTimer = 0;
-
+life = 10;

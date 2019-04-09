@@ -14,8 +14,7 @@ switch (myNumber){
 	
 		break;
 	case 3:	
-		//var created=instance_create_layer(x-40,y,"Instances",obj_OmicronAttack);
-		obj_LambdaLord.alarm[0]=60;
+		var created=instance_create_layer(x-40,y,"Instances",obj_OmicronAttack);
 		break;
 	case 4:
 		var created=instance_create_layer(x-40,y,"Instances",obj_DeltaAttack);
@@ -29,6 +28,6 @@ switch (myNumber){
 	
 }
 
-camera_set_view_pos(view_camera[0],obj_player.x-240,obj_player.y-120);
-camera_set_view_size(view_camera[0],700,350);
+//camera_set_view_pos(view_camera[0],obj_player.x-240,obj_player.y-120);
+//camera_set_view_size(view_camera[0],700,350);
 instance_destroy();

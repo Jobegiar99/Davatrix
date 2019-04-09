@@ -8,4 +8,4 @@ attack=false;
 beam1=true;
 beam2=true;
 beam3=true;
-alarm[2]=600;
+alarm[2]=1800;

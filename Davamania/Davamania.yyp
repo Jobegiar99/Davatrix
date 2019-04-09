@@ -575,6 +575,14 @@
             }
         },
         {
+            "Key": "8c2e34b7-e909-4a53-bd15-b2016ad1b48e",
+            "Value": {
+                "id": "29498e78-771f-4719-be25-426ac324d978",
+                "resourcePath": "objects\\obj_PiAttack\\obj_PiAttack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8ce98302-7567-4561-ae20-97a07c1b70ee",
             "Value": {
                 "id": "a5cb36f3-74f1-495a-81f1-1b2c359f49d6",
@@ -815,6 +823,14 @@
             }
         },
         {
+            "Key": "ceb48993-8096-417c-a707-f6d84f63ee81",
+            "Value": {
+                "id": "95ea261f-089b-450f-8d61-6cd5c105f1ed",
+                "resourcePath": "objects\\obj_OmegaProjectile\\obj_OmegaProjectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d0ae2e85-755a-454d-9ccc-4e1347e1630b",
             "Value": {
                 "id": "bd3275b4-ea7b-4bc9-ab2c-14dcefdded8b",
@@ -908,6 +924,14 @@
                 "id": "670c9d80-6f96-4db9-bb5d-63bc3401cd09",
                 "resourcePath": "sounds\\music_MainMenu\\music_MainMenu.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e24be5a9-26c1-4e8b-9a27-7e3710f812f7",
+            "Value": {
+                "id": "e2d05e30-b7df-4ef9-91f7-950015d0029e",
+                "resourcePath": "objects\\obj_PiProjectile\\obj_PiProjectile.yy",
+                "resourceType": "GMObject"
             }
         },
         {

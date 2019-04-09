@@ -13,7 +13,8 @@ switch (myNumber){
 	
 		break;
 	case 3:	
-		var created=instance_create_layer(x-40,y,"Instances",obj_OmicronAttack);
+		//var created=instance_create_layer(x-40,y,"Instances",obj_OmicronAttack);
+		obj_LambdaLord.alarm[0]=60;
 		break;
 	case 4:
 		var created=instance_create_layer(x-40,y,"Instances",obj_DeltaAttack);

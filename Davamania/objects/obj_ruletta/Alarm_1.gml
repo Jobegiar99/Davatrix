@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-myNumber=choose(0,1,2,3,4,5);
+myNumber=irandom_range(0, 5);
 switch (myNumber){
 	case 0:
 		var created=instance_create_layer(x,y,"Instances",obj_Lambda);

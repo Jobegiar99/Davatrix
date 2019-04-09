@@ -27,3 +27,7 @@ if(attack){
 	speed = 1.25;
 	direction = point_direction(x, y, obj_player.x, obj_player.y);
 }
+
+if(life <= 0){
+	instance_destroy();
+}

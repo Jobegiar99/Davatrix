@@ -6,7 +6,7 @@ if (attack1){
 }
 
 if (attack2){
-	
+	instance_create_layer(x,y,"Instances",obj_LambdaLordExplosion);
 	attack2=false;	
 }
 
@@ -15,16 +15,7 @@ if (attack3){
 	attack3=false;	
 }
 
-
-if (attack4){
-	attack4=false;
-}
-
-if (attack5){	
-	attack5=false;
-}
-
-switch(irandom(5)){
+switch(irandom(3)){
 		case 0:
 			attack1=true;
 			break;
@@ -34,11 +25,6 @@ switch(irandom(5)){
 		case 2:
 			attack3=true;
 			break;
-		case 3:
-			attack4=true;
-			break;
-		case 4:
-			attack5=true;
 }
 
 

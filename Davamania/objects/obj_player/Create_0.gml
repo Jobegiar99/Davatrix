@@ -5,7 +5,7 @@ spdV=0;
 attackH=0;
 attackV=0;
 cooldown=0;
-audio_sound_gain(music_Gameplay,1,100);
+//audio_sound_gain(music_Gameplay,1,100);
 
 lives=100;
 myIndex=array_create(4,[]);

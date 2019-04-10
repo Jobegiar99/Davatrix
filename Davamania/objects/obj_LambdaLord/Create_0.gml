@@ -6,6 +6,4 @@ alarm[0]=60;
 	attack1=true;
 	attack2=false;
 	attack3=false;
-	attack4=false;
-	attack5=false;
 	#endregion

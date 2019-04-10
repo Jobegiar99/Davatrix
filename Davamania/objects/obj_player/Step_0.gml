@@ -5,13 +5,12 @@ cooldown--;
 spdH=(keyboard_check(ord("D"))-keyboard_check(ord("A")))*1.5;
 spdV=(keyboard_check(ord("S"))-keyboard_check(ord("W")))*1.5;
 
+#region player's movement
 if (spdH!=0){
 	sprite_index=spr_davalosSide;
 	image_xscale=.5*sign(spdH);
 	arrayControl=(spdH==-1.5)? 3: 2; //sets the value that will be used to retrieve the sprite of the sprite array
-
-}
-if (spdV==-1.5){
+}if (spdV==-1.5){
 	sprite_index=spr_davalosBack;	
 	arrayControl=0;
 	image_xscale=.5;
@@ -19,20 +18,20 @@ if (spdV==-1.5){
 	sprite_index=spr_davalosFront;
 	image_xscale=.5;
 	arrayControl=1;
-}
-if (spdV==0 and spdH==0){
+}if (spdV==0 and spdH==0){
 	sprite_index=(myIndex[arrayControl]);
 	image_xscale=.5;
-
 }
+	#endregion
 
 y+=spdV;
 x+=spdH;
 
-
 attackH=(keyboard_check(vk_right)-keyboard_check(vk_left));
 attackV=(keyboard_check(vk_down)-keyboard_check(vk_up));
 
+
+#region Player's attack.
 if (cooldown<=0 and (attackH != 0 or attackV!=0)){
 		
 	var instance= instance_create_layer(x+10,y+10,"layer_Projectiles",obj_weapon);
@@ -60,3 +59,4 @@ if (cooldown<=0 and (attackH != 0 or attackV!=0)){
 	instance.image_angle+=speed*1.3;
 	cooldown=instance.speed*8;
 }
+	#endregion

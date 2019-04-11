@@ -711,6 +711,14 @@
             }
         },
         {
+            "Key": "a6237f25-dfe6-43c4-8f6f-18e4fd600d64",
+            "Value": {
+                "id": "bd27f0c9-8dfb-4a8a-be89-a0539b30ebc3",
+                "resourcePath": "rooms\\room_FINALBOSS\\room_FINALBOSS.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a81e5b83-3490-4b91-bd10-3f270379c2d0",
             "Value": {
                 "id": "384a01ab-6aaf-4114-96c4-9ded7c85f470",

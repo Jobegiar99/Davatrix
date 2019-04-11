@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+sprite_index=spr_LordStill;
+
 if (attack1){
 	instance_create_layer(x,y,"Instances",obj_ruletta);
 	attack1=false;
@@ -7,7 +9,7 @@ if (attack1){
 }
 
 if (attack2){
-	instance_create_layer(x,y,"Instances",obj_LambdaLordExplosion);
+	explosion=true;
 	attack2=false;	
 	alarm[1]=45;
 	sprite_index=spr_LordPhase2Loading;

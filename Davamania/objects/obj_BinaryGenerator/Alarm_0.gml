@@ -3,7 +3,7 @@
 attack1=true;
 attack1Activated=false;
 attack1Counter=8;
-if (life<250 and life > 150){
+if (life<75 and life > 50){
 	attack2Counter=random_range(1,3);
 }else{
 	attack2Counter=random_range(3,5);	

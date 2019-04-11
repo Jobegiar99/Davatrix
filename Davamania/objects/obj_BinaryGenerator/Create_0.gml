@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-life=100;
+life=300;
 cooldown=0;
 attack1=true;
 

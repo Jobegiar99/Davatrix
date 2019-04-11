@@ -6,4 +6,5 @@ inRoom3=false;
 room1Open=false;
 room2Closed=false;
 room3Closed=false;
+room3cleared=false;
 lives=100;

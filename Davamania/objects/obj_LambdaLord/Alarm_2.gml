@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm[0]=45;
 explosion=false;
-explosionCounter=0;
+sprite_index=spr_LordPhase2Closing;
+alarm[0]=30;

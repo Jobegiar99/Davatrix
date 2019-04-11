@@ -5,5 +5,6 @@ alarm[0]=60;
 #region boolean attacks
 	attack1=true;
 	attack2=false;
-	attack3=false;
+	explosion=false;
+	explosionCounter=0;
 	#endregion

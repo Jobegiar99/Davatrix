@@ -80,13 +80,6 @@ if (inRoom3){
 		}
 	
 	
-	}
-	if (!(instance_exists(obj_RedLed)) and instance_exists(instance_room2Exit)){
-		instance_room2Exit.image_xscale-=0.1;
-		instance_room2Exit.image_yscale-=0.1;
-		instance_room2Exit.image_angle+=(100*image_xscale);
-		if (instance_room2Exit.image_yscale<=0){
-			instance_destroy(instance_room2Exit);	
-		}
-	}
+	
+	}	
 }

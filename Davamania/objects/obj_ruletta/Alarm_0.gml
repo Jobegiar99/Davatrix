@@ -32,15 +32,14 @@ switch(control){
 	alarm[0]=30;
 	break;
 	case 6: case 7: case 8:
-	obj_Lambda.speed+=0.5;
 	control++;
 	alarm[0]=60;
 	break;
 	default:
-		with (obj_Lambda){
+		with (obj_Lambda ){
 			moving=false;
 			direction=point_direction(x,y,obj_LambdaLord.x,obj_LambdaLord.y);
-			speed=2;
+			
 			
 	}
 }

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-life=300;
+life=100;
 cooldown=0;
 attack1=true;
 
@@ -11,7 +11,7 @@ attack1Activated=false;
 
 alarm2activated=false;
 attack2=false;
-attack2Activated=false;
+
 attack2Counter=1; //Number of waves
 attack2Number=attack2Counter; //variable that controls the number of waves remaining.
 attack2Angle=360; //Number of characters remaining

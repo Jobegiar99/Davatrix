@@ -56,7 +56,7 @@ if (inRoom2){
 }
 
 if (inRoom3){
-	if (obj_player.x>=30 and room3Closed==false){
+	if (obj_player.x>=30 and !room3Closed){
 	
 		instance_Room3Closed.image_xscale+=0.02;
 		
@@ -68,6 +68,8 @@ if (inRoom3){
 				}
 				image_angle+=30;
 		}
+	}
+		
 		if (instance_Room3Closed.image_xscale>=1){
 			instance_create_layer(245,191,"Instances",obj_BinaryGenerator);
 			room3Closed=true;	
@@ -78,8 +80,21 @@ if (inRoom3){
 				image_angle=0;
 			}
 		}
+		if (room3cleared){
+			instance_WallARoom3.image_angle+=5;
+			instance_WallBRoom3.image_angle+=5;
+			instance_WallARoom3.image_xscale-=0.1;
+			instance_WallARoom3.image_yscale-=0.1;
+			instance_WallBRoom3.image_xscale-=0.1;
+			instance_WallBRoom3.image_yscale-=0.1;
+			if (instance_WallARoom3.image_xscale<=0){
+				instance_destroy(instance_WallARoom3);
+				instance_destroy(instance_WallBRoom3);
+				room3cleared=false;
+			}
+				
+		}
 	
 	
 	
-	}	
-}
+}	

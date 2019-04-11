@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 sprite_index=spr_LordStill;
-x=choose(100,200,300,400,500);
+x=choose(100,200,300,400);
+y=choose(100,150,200,250,300,350);
 
 if (attack1){
 	instance_create_layer(x,y,"Instances",obj_ruletta);

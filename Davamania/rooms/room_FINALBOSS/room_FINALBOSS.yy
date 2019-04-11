@@ -2,7 +2,7 @@
 {
     "name": "room_FINALBOSS",
     "id": "9c793292-b093-4851-8374-7069a68a3171",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

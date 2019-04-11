@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "262097a4-b9e2-4b8d-af25-638f35c381ac",
+            "Value": {
+                "id": "f1868d6c-39e7-4164-a19e-64bf4ccdd0f4",
+                "resourcePath": "sprites\\spr_davalosFace\\spr_davalosFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29814151-59f0-4056-8def-1de34077f20f",
             "Value": {
                 "id": "52c9200f-b582-49f6-b414-7b7b81afe6ed",

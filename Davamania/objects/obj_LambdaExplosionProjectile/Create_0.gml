@@ -2,9 +2,8 @@
 // You can write your code in this editor
 alarm[0]=60;
 alarm[1]=1000; //destroys de instance;
-attack2counter=0;
-up=true;
-down=false;
+secondAttackControl=0;
+dirvalue=0;
 gravity=random_range(0.02,0.03);
 speed=(irandom_range(3,6))+random_range(0.25,0.5);
 direction=90+(irandom(10))*((irandom(100)%2==0) ? 1: -1);

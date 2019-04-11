@@ -1,8 +1,7 @@
 
 {
     "name": "room_FINALBOSS",
-    "id": "a6237f25-dfe6-43c4-8f6f-18e4fd600d64",
-    "creationCodeFile": "",
+
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

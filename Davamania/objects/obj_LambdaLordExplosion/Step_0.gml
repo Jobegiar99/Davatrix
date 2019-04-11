@@ -18,10 +18,7 @@ if (attack2){
 	}else{
 		y-=1.5;	
 	}
-	var myprojectile=instance_create_layer(x,y-33,"layer_UI_Stats",obj_LambdaExplosionProjectile);
-	myprojectile.direction=180;
-	myprojectile.gravity=0.09;
-	myprojectile.up=((irandom(50)%2==0) ? true : false);
-	myprojectile.down=((myprojectile.up)? false: true);
+		
+	
 	
 }

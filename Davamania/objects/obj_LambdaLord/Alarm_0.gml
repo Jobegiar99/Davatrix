@@ -1,32 +1,30 @@
 /// @description Insert description here
 // You can write your code in this editor
+sprite_index=spr_LordStill;
+
 if (attack1){
 	instance_create_layer(x,y,"Instances",obj_ruletta);
 	attack1=false;
+	sprite_index=spr_LordStill;
 }
 
 if (attack2){
-	instance_create_layer(x,y,"Instances",obj_LambdaLordExplosion);
+	explosion=true;
 	attack2=false;	
-}
-
-if (attack3){
+	alarm[1]=45;
+	sprite_index=spr_LordPhase2Loading;
 	
-	attack3=false;	
 }
 
-switch(irandom(3)){
+
+switch(irandom(2)){
 		case 0:
 			attack1=true;
+			attack2=false;
 			break;
 		case 1:
 			attack2=true;
-			break;
-		case 2:
-			attack3=true;
+			attack1=false;
 			break;
 }
-
-
-mask_index=0;
-image_alpha=0;
+		

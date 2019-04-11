@@ -255,14 +255,6 @@
             }
         },
         {
-            "Key": "262097a4-b9e2-4b8d-af25-638f35c381ac",
-            "Value": {
-                "id": "f1868d6c-39e7-4164-a19e-64bf4ccdd0f4",
-                "resourcePath": "sprites\\spr_davalosFace\\spr_davalosFace.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "29814151-59f0-4056-8def-1de34077f20f",
             "Value": {
                 "id": "52c9200f-b582-49f6-b414-7b7b81afe6ed",
@@ -836,14 +828,6 @@
                 "id": "2c928363-a392-4204-95a0-6d57cfb75567",
                 "resourcePath": "views\\b73ab5df-5f82-41c2-b542-c7cc21a0a57c.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b9a1a5c5-5962-4610-81de-fe5cd01804fd",
-            "Value": {
-                "id": "9e07c9b8-e06c-42a1-b87c-49edc0ad268c",
-                "resourcePath": "objects\\obj_LambdaLordExplosion\\obj_LambdaLordExplosion.yy",
-                "resourceType": "GMObject"
             }
         },
         {

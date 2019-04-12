@@ -61,4 +61,4 @@ if (cooldown<=0 and (attackH != 0 or attackV!=0)){
 }
 	#endregion
 
-if(lives <= 0) room_goto(room_MainMenu);
+if(lives <= 0) game_restart();

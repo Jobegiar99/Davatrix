@@ -4,4 +4,4 @@ x=room_width/2;
 y=270;
 image_alpha=0;
 image_yscale = .8;
-image_xscale = .5;
+image_xscale = .8;

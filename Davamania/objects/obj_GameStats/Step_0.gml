@@ -56,45 +56,23 @@ if (inRoom2){
 }
 
 if (inRoom3){
-	if (obj_player.x>=30 and !room3Closed){
-	
-		instance_Room3Closed.image_xscale+=0.02;
-		
-		instance_Room3Closed.image_yscale+=0.02;
-		
-		with (room2_wallCloseB){
-				if (x<17){
-					x+=1;
-				}
-				image_angle+=30;
-		}
+	if (obj_player.x>=30 and room3Closed==false){
+		room3Closed=true;
 	}
 		
-		if (instance_Room3Closed.image_xscale>=1){
-			instance_create_layer(245,191,"Instances",obj_BinaryGenerator);
-			room3Closed=true;	
-			with (instance_Room3Closed){
-				image_angle=0;
-			}
-			with (instance_Room3Closed){
-				image_angle=0;
-			}
-		}
-		if (room3cleared){
-			instance_WallARoom3.image_angle+=5;
-			instance_WallBRoom3.image_angle+=5;
-			instance_WallARoom3.image_xscale-=0.1;
-			instance_WallARoom3.image_yscale-=0.1;
-			instance_WallBRoom3.image_xscale-=0.1;
-			instance_WallBRoom3.image_yscale-=0.1;
-			if (instance_WallARoom3.image_xscale<=0){
-				instance_destroy(instance_WallARoom3);
-				instance_destroy(instance_WallBRoom3);
-				room3cleared=false;
-			}
-				
-		}
+	if (room3Closed and binaryNotCreated){
+		instance_create_layer(245,191,"Instances",obj_BinaryGenerator);
+		binaryNotCreated=false;
+	}
+		
+	if (room3cleared and room3notopen){
+	
+			instance_destroy(instance_WallARoom3);
+			instance_destroy(instance_WallBRoom3);
+			room3notopen=false;
+		}		
+}
 	
 	
 	
-}	
+	

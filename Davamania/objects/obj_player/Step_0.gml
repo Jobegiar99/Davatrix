@@ -60,3 +60,5 @@ if (cooldown<=0 and (attackH != 0 or attackV!=0)){
 	cooldown=instance.speed*8;
 }
 	#endregion
+
+if(lives <= 0) room_goto(room_MainMenu);

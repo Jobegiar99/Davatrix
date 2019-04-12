@@ -4,8 +4,8 @@ draw_set_font(fnt_binaryNumbers);
 draw_set_color(c_white);
 
 draw_sprite(spr_davalosFace, 0, 
-camera_get_view_border_x(room_get_camera(room_Game,1))+16,
- camera_get_view_border_y(room_get_camera(room_Game,1))+15);
+camera_get_view_border_x(room_get_camera(room,1))+900,
+ camera_get_view_border_y(room_get_camera(room,1))+16);
  
-draw_text(camera_get_view_border_x(room_get_camera(room_Game,1))+32,
-camera_get_view_border_y(room_get_camera(room_Game,1))+8,": " + lives);
+draw_text(camera_get_view_border_x(room_get_camera(room,1))+910,
+camera_get_view_border_y(room_get_camera(room,1))+ 14, ": " + string(lives));

@@ -22,6 +22,7 @@ if (attack1 and attack2==false){
 
 
 if (life<=0){
+	obj_GameStats.room3cleared=true;
 	instance_destroy();
 }
 	

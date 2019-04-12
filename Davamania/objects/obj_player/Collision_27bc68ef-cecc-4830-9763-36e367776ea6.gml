@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-life--;
-instance_destroy(other);
+if (!damaged){
+	life--;
+	instance_destroy(other);
+	damaged=true;
+}

@@ -831,6 +831,14 @@
             }
         },
         {
+            "Key": "b8deed43-702e-42aa-b820-6d9a258f7d03",
+            "Value": {
+                "id": "6c204afe-8320-4b4b-8bec-1e7800a9d242",
+                "resourcePath": "fonts\\fnt_life\\fnt_life.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "bdb26d0b-0448-4242-956f-a29457764661",
             "Value": {
                 "id": "4fcf0b69-8af3-44aa-b82a-a7a2fa80a610",

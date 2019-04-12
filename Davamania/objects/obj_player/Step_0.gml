@@ -62,3 +62,17 @@ if (cooldown<=0 and (attackH != 0 or attackV!=0)){
 	#endregion
 
 if(lives <= 0) game_restart();
+
+if (damaged){
+	invulnerability++;
+	if (invulnerability%2=0 and !invulnerability%10==0){
+		image_alpha=0;	
+	}else{
+		image_alpha=1;	
+	}
+	if (invulnerability>=60){
+		image_alpha=1;
+		invulnerability=0;
+		damaged=false;
+	}
+}

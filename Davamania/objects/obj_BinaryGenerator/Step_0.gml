@@ -25,5 +25,12 @@ if (life<=0){
 	obj_GameStats.room3cleared=true;
 	instance_destroy();
 }
+
+if (drawing){
+	drawControl++;
+	if (drawControl==60){
+		drawing=false;	
+	}
+}
 	
 	

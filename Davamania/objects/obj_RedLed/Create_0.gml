@@ -9,3 +9,5 @@ life=12;
 myAlarmCooldown=random_range(10,60);
 alarm[0]=myAlarmCooldown;
 numberOfAttacks=3;
+drawing=false;
+drawControl=0;

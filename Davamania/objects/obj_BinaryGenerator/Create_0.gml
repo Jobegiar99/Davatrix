@@ -3,7 +3,8 @@
 life=300;
 cooldown=0;
 attack1=true;
-
+drawing=false;
+drawControl=0;
 
 alarm0Activated=false;
 attack1Counter=0; //Number of binary numbers to throw
